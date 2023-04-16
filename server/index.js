@@ -1,5 +1,4 @@
 import express from 'express';
-import dotenv from 'dotenv';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import multer from 'multer';
@@ -7,7 +6,7 @@ import multer from 'multer';
 import PostRoute from './routes/posts.js'
 import UserRoute from './routes/users.js'
 import authRoute from './routes/auth.js'
-dotenv.config(); 
+
 const app = express();
 const port = process.env.PORT || 5000;
 const storage = multer.diskStorage({
