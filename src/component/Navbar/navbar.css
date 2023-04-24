@@ -1,0 +1,33 @@
+
+
+.navbar-brand img
+{
+    width: 100px;
+}
+
+.nav-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.write
+{
+    background-color: #b9e7e7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.write:hover
+{
+    color: teal;
+    background-color: white;
+    border: 1px solid teal;
+}

@@ -1,0 +1,62 @@
+
+
+
+
+.login
+{
+    background-color: #b9e7e7;
+    height: 100vh;
+
+
+}
+
+.login form
+{
+     width: 300px;
+     background-color: white;
+     padding: 50px;
+     gap: 20px;
+     border-radius: 10px;
+
+}
+
+
+h1
+{
+    font-size: 30px;
+    color: teal;
+    margin-bottom: 20px;
+}
+
+input
+{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    
+}
+
+
+
+.btn
+{
+  padding: 10px;
+  border: 1px solid teal;
+  background-color: teal;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover
+{
+   background-color: white;
+   color: teal;
+   
+   
+}
+
+span
+{
+    color: gray;
+}
+

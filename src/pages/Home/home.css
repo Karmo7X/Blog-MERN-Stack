@@ -1,0 +1,64 @@
+.posts
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.post
+{
+    display: flex;
+    gap: 40px;
+}
+.post:nth-child(2n+1)
+{
+    flex-direction: row-reverse;
+
+}
+
+.img
+{
+    flex: 2;
+    position: relative;
+}
+
+.img::after
+{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #b9e7e7;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    z-index: -1;
+}
+
+.img img
+{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.post .content
+{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.content  .btn
+{
+   width: max-content;
+}
+
+
+
+a
+{
+    text-decoration: none;
+}

@@ -1,0 +1,105 @@
+.write-page
+{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.write-page .content
+{
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ 
+}
+
+
+
+.write-page .content input {
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.editorContainer
+{
+    height: 300px;
+    width: 100;
+    overflow: scroll;
+    border: 1px solid lightgray;
+}
+.editor
+{
+    height: 100%;
+    border: none;
+}
+
+.write-page .menu
+{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.write-page  .menu .item
+{
+    border: 1px solid lightgray;
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #555;
+}
+.write-page  .menu .item .file
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.write-page  .menu .item .buttons
+{
+  display: flex;
+  justify-content: space-between;   
+}
+
+.buttons .save
+{
+    cursor: pointer;
+    color: teal;
+    background-color: white;
+    border: 1px solid teal;
+    padding: 3px 5px;
+}
+.buttons .save:hover
+{
+  background-color: teal;
+  color: white;
+}
+.buttons .publish
+{
+    cursor: pointer;
+    color: white;
+    background-color: teal;
+    border: 1px solid teal;
+    padding: 3px 5px;
+}
+
+.buttons .publish:hover
+{
+    background-color: white;
+    color: teal;
+}
+
+.cat
+{
+    display: flex;
+    align-items: center;
+    color: teal;
+    gap: 5px;
+}
+
